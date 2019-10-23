@@ -25,7 +25,7 @@ const BuublMaps = (props) => {
       </ModalBody>
       <ModalFooter>
       <a href="#">	<Button color="info">Demo</Button></a>
-      <a href="#"> 	<Button color="primary">Code</Button></a>
+      <a href="https://github.com/nottheaveragejo/booble"> 	<Button color="primary">Code</Button></a>
         <Button color="secondary" onClick={toggle}>Cancel</Button>
       </ModalFooter>
     </Modal>

@@ -2,7 +2,6 @@ import React from 'react';
 
 const Clouds = () => {
   return(
-    // <div className="CloudContainer">
     <div className="background-wrap">
     <div className="x1">
         <div className="cloud">
@@ -27,7 +26,6 @@ const Clouds = () => {
         <div className="cloud">Programmer</div>
     </div>
 </div>
-// </div>
   )
 }
 export default Clouds;

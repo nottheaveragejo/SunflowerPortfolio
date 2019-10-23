@@ -4,7 +4,6 @@ class Leaves extends Component {
   constructor() {
     super();
     this.state = {
-      date: new Date(),
       rightTechnologies: [
         'HTML',
         'CSS',
@@ -36,10 +35,6 @@ class Leaves extends Component {
     return (
       <div>
         <h1 className="techName">Technologies I know</h1>
-        <div className="flower">
-        <div className="lPetalsflowers"></div>
-        {/* <div className="rPetalsflowers"></div> */}
-        </div>
         <div className="leavesContainer">
         {
           this.state.rightTechnologies.map((leaf, ind )=> {
@@ -47,14 +42,12 @@ class Leaves extends Component {
               return(
                 <div className="rsingleLeafStem">
                 <div className='rightLeaf' key={ind}> {leaf}</div>
-                {/* <div className="testStem"></div> */}
                 </div>
               )
               }
               else{
                return(
                 <div className="lsingleLeafStem">
-                {/* <div className="testStem"></div> */}
                <div className='leftLeaf' key={ind}> {leaf}</div>
                </div>
                )

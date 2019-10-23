@@ -20,17 +20,17 @@ import Portfolio from "./Porfolio"
 							<h3>Portfolio</h3>
 							<Portfolio></Portfolio>
 							</div>
-							<div className="t">2 :)</div>
-							<div className="t">3</div>
-							<div  className="t">4</div>
+							<div className="t">◕ ꒳ ◕✿</div>
+							<div className="t">◠‿◠✿</div>
+							<div  className="t">　◕‿◕✿</div>
 							<div className="t">
 								<h3 className="projectName">Apple Crumble</h3>
 								<Apple></Apple>
 							</div>
-							<div className="t">6</div>
-							<div className="t">7</div>
-							<div className="t">8</div>
-							<div  className="t">9</div>
+							<div className="t">◕ ワ ◕✿</div>
+							<div className="t">ᅌʊᅌ✿</div>
+							<div className="t">˵◕ ɔ ◕˵✿</div>
+							<div  className="t">ꈍ ˬ ꈍ✿</div>
 							<div className="t">
 								<h3 className="projectName">ScriptFlip</h3>
 							<ScriptFlip></ScriptFlip>
@@ -39,9 +39,9 @@ import Portfolio from "./Porfolio"
 								<h3 className="projectName">AOPAI</h3>
 								<AOPAI></AOPAI>
 							</div>
-							<div className="t">12</div>
-							<div className="t">13</div>
-							<div  className="t">14</div>
+							<div className="t">（✿ ͡◕ ᴗ◕)つ━━✫・*。</div>
+							<div className="t">◕ ワ ◕✿</div>
+							<div  className="t">ᅌʊᅌ✿</div>
 							<div className="t">
 								<h3 className="projectName">Buubl Maps</h3>
 								<BuublMaps></BuublMaps>

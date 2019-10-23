@@ -20,12 +20,12 @@ const Portfolio= (props) => {
       <ModalBody>
         A site showcasing the projects I've done, encapsulating the brightest,
         most optimistic flower there is. A sunflower. Inspired by my favorite
-        Spiderman movie
+        Spiderman movie and the Great British Bake Off.
         Tech Used:  JavaScript, React, CSS, Reactstrap, and HTML.
       </ModalBody>
       <ModalFooter>
-      <a href="https://unruffled-mccarthy-d11a25.netlify.com/">	<Button color="info">Demo</Button></a>
-      <a href="https://github.com/nottheaveragejo/PanAdventures"> 	<Button color="primary">Code</Button></a>
+      <a href="#">	<Button color="info">Demo</Button></a>
+      <a href="https://github.com/nottheaveragejo/SunflowerPortfolio"> 	<Button color="primary">Code</Button></a>
         <Button color="secondary" onClick={toggle}>Cancel</Button>
       </ModalFooter>
     </Modal>
