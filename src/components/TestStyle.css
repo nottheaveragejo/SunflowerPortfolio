@@ -1,0 +1,73 @@
+.test{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: column;
+}
+.t {
+  width:25%;
+}
+.t:nth-child(4n+1){
+  order:1;
+}
+.t:nth-child(4n+2){
+  order:2;
+}
+.t:nth-child(4n+3){
+  order:3;
+}
+.t:nth-child(4n){
+  order:4;
+}
+/* Obvious CSS for better visualisation */
+.test{
+  margin:0;
+  height:100vh;
+  min-height:700px;
+}
+.t {
+  border:10px solid white;
+  color:#444;
+  padding:10px;
+  font-family:impact;
+  font-size:1.5rem;
+  box-sizing:border-box;
+}
+.t:nth-child(3n){
+  background:#f05133;
+}
+.t:nth-child(3n+1){
+  background:#f79762;
+}
+.t:nth-child(3n+2){
+  background:#8b0000;
+}.t:nth-child(5n){
+  min-height:40%;
+}
+.t:nth-child(5n+1){
+  min-height:30%;
+}
+.t:nth-child(5n+2){
+  min-height:20%;
+}
+.t:nth-child(5n+2){
+  height:10%;
+}
+.t:nth-child(5n+2){
+  min-height:15%;
+}
+.t:nth-last-child(2),
+.t:nth-last-child(3),
+.t:nth-last-child(4),
+.t:last-child {flex:1;
+color:red
+}
+.t:nth-last-child(2):after,
+.t:nth-last-child(3):after,
+.t:nth-last-child(4):after,
+.t:last-child:after {
+  color:initial;
+}
+
+.projectName{
+  color:white;
+}

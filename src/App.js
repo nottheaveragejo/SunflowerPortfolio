@@ -1,25 +1,32 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.css';
 import logo from './logo.svg';
 import './App.css';
+import Home from "./components/Home"
+import Stem from "./components/stem"
+import Contact from "./components/Contact"
+import Projects from "./components/Projects"
+import Clouds from "./components/Clouds"
+import Leaves from "./components/Leaves"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Home></Home>
+      <Clouds></Clouds>
+      {/* <Stem></Stem> */}
+      <Leaves></Leaves>
+      <Projects></Projects>
+      <Contact></Contact>
+      {/* <StemTest></StemTest> */}
+      <Switch>
+        <Route path="/home">
+          <Home />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

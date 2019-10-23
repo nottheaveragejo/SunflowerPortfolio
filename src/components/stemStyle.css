@@ -1,0 +1,23 @@
+.rightStem{
+  margin-top:60px;
+  height: 600vh;
+  margin-right: 30px;
+  width: 10px;
+  background-color:green;
+}
+
+.leftStem{
+  margin-top:60px;
+  height: 600vh;
+  margin-left: 100px;
+  width: 10px;
+  background-color:green;
+  border: 1px solid red;
+}
+
+.stemContainer{
+  display: flex;
+  justify-content: center;
+  /* width:300px; */
+  border: 1px solid red;
+}
