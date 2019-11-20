@@ -6,11 +6,18 @@ Technologies used
 
 For this site, JavaScript, React, CSS, HTML, Reactstrap and Python were used to create the site you see here. 
 
+
+### Deployment
+
+This site was deployed using netlify. To see the deployed version, click here! 
+http://sunflower-website.herokuapp.com/
+
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `mpm start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser. This is how to develop it locally
@@ -40,7 +47,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 
-
-### Deployment
-
-This site was deployed using netlify
